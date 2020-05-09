@@ -1,0 +1,12 @@
+
+if(0==global.home_kit) sprite_index = wp_U;
+else if (1==global.home_kit) sprite_index = yp_U;
+else if (2==global.home_kit) sprite_index = op_U;
+else if (3==global.home_kit) sprite_index = rp_U;
+else if (4==global.home_kit) sprite_index = gp_U;
+else if (5==global.home_kit) sprite_index = lbp_U;
+else if (6==global.home_kit) sprite_index = bp_U;
+else if (7==global.home_kit) sprite_index = pp_U;
+else if (8==global.home_kit) sprite_index = avp_U;
+
+

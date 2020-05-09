@@ -1,0 +1,179 @@
+// diagonali:
+ if keyboard_check(vk_up) && keyboard_check(vk_left)
+{
+  if(old_step == 135) exit;
+  
+  if(0==global.home_kit) sprite_index = wp_UL_walk;
+  else if (1==global.home_kit) sprite_index = yp_UL_walk;
+  else if (2==global.home_kit) sprite_index = op_UL_walk;
+  else if (3==global.home_kit) sprite_index = rp_UL_walk;
+  else if (4==global.home_kit) sprite_index = gp_UL_walk;
+  else if (5==global.home_kit) sprite_index = lbp_UL_walk;
+  else if (6==global.home_kit) sprite_index = bp_UL_walk;
+  else if (7==global.home_kit) sprite_index = pp_UL_walk;
+  else if (8==global.home_kit) sprite_index = avp_UL_walk;
+ 
+
+image_speed = 0.30;
+motion_set(135,8);
+friction =0;
+depth = -y;
+old_step = direction;                }
+
+
+else if keyboard_check(vk_up) && keyboard_check(vk_right)
+{
+   if(old_step == 45) exit;
+   
+if(0==global.home_kit) sprite_index = wp_UR_walk;
+  else if (1==global.home_kit) sprite_index = yp_UR_walk;
+  else if (2==global.home_kit) sprite_index = op_UR_walk;
+  else if (3==global.home_kit) sprite_index = rp_UR_walk;
+  else if (4==global.home_kit) sprite_index = gp_UR_walk;
+  else if (5==global.home_kit) sprite_index = lbp_UR_walk;
+  else if (6==global.home_kit) sprite_index = bp_UR_walk;
+  else if (7==global.home_kit) sprite_index = pp_UR_walk;
+  else if (8==global.home_kit) sprite_index = avp_UR_walk;
+
+image_speed = 0.30;
+motion_set(45,8);
+friction =0;
+depth = -y;
+ old_step = direction;                                                        
+}
+
+else if keyboard_check(vk_down) && keyboard_check(vk_left)
+{
+      if(old_step == 225) exit;
+      
+      
+if(0==global.home_kit) sprite_index = wp_DL_walk;
+  else if (1==global.home_kit) sprite_index = yp_DL_walk;
+  else if (2==global.home_kit) sprite_index = op_DL_walk;
+  else if (3==global.home_kit) sprite_index = rp_DL_walk;
+  else if (4==global.home_kit) sprite_index = gp_DL_walk;
+  else if (5==global.home_kit) sprite_index = lbp_DL_walk;
+  else if (6==global.home_kit) sprite_index = bp_DL_walk;
+  else if (7==global.home_kit) sprite_index = pp_DL_walk;
+  else if (8==global.home_kit) sprite_index = avp_DL_walk;
+
+image_speed = 0.30;
+motion_set(225,8);
+friction =0;
+depth = -y;
+ old_step = direction;                                                
+}
+
+else if keyboard_check(vk_down) && keyboard_check(vk_right)
+{
+     if(old_step == 315) exit;
+if(0==global.home_kit) sprite_index = wp_DR_walk;
+  else if (1==global.home_kit) sprite_index = yp_DR_walk;
+  else if (2==global.home_kit) sprite_index = op_DR_walk;
+  else if (3==global.home_kit) sprite_index = rp_DR_walk;
+  else if (4==global.home_kit) sprite_index = gp_DR_walk;
+  else if (5==global.home_kit) sprite_index = lbp_DR_walk;
+  else if (6==global.home_kit) sprite_index = bp_DR_walk;
+  else if (7==global.home_kit) sprite_index = pp_DR_walk;
+  else if (8==global.home_kit) sprite_index = avp_DR_walk;
+
+image_speed = 0.30;
+motion_set(315,8);
+friction =0;
+depth = -y;
+ old_step = direction;                                                      
+}
+
+
+
+
+
+ // pravi posoki:                                                     
+else if keyboard_check(vk_up)
+{
+  if(old_step == 90) exit;
+if(0==global.home_kit) sprite_index = wp_U_walk;
+  else if (1==global.home_kit) sprite_index = yp_U_walk;
+  else if (2==global.home_kit) sprite_index = op_U_walk;
+  else if (3==global.home_kit) sprite_index = rp_U_walk;
+  else if (4==global.home_kit) sprite_index = gp_U_walk;
+  else if (5==global.home_kit) sprite_index = lbp_U_walk;
+  else if (6==global.home_kit) sprite_index = bp_U_walk;
+  else if (7==global.home_kit) sprite_index = pp_U_walk;
+  else if (8==global.home_kit) sprite_index = avp_U_walk;
+
+image_speed = 0.30;
+motion_set(90,8);
+friction =0;  
+depth = -y;   
+old_step = direction;                
+}
+
+else if keyboard_check(vk_left)
+{
+   if(old_step == 180) exit;
+if(0==global.home_kit) sprite_index = wp_L_walk;
+  else if (1==global.home_kit) sprite_index = yp_L_walk;
+  else if (2==global.home_kit) sprite_index = op_L_walk;
+  else if (3==global.home_kit) sprite_index = rp_L_walk;
+  else if (4==global.home_kit) sprite_index = gp_L_walk;
+  else if (5==global.home_kit) sprite_index = lbp_L_walk;
+  else if (6==global.home_kit) sprite_index = bp_L_walk;
+  else if (7==global.home_kit) sprite_index = pp_L_walk;
+  else if (8==global.home_kit) sprite_index = avp_L_walk;
+
+image_speed = 0.30;
+motion_set(180,8);
+friction =0;
+ old_step = direction;                                                   
+}
+
+else if keyboard_check(vk_down)
+{
+   if(old_step == 270) exit;
+if(0==global.home_kit) sprite_index = wp_D_walk;
+  else if (1==global.home_kit) sprite_index = yp_D_walk;
+  else if (2==global.home_kit) sprite_index = op_D_walk;
+  else if (3==global.home_kit) sprite_index = rp_D_walk;
+  else if (4==global.home_kit) sprite_index = gp_D_walk;
+  else if (5==global.home_kit) sprite_index = lbp_D_walk;
+  else if (6==global.home_kit) sprite_index = bp_D_walk;
+  else if (7==global.home_kit) sprite_index = pp_D_walk;
+  else if (8==global.home_kit) sprite_index = avp_D_walk;
+
+image_speed = 0.30;
+motion_set(270,8);
+friction =0;
+depth = -y;
+
+ old_step = direction;                                                 
+}
+
+else if keyboard_check(vk_right)
+{
+      if(old_step == 0) exit;
+if(0==global.home_kit) sprite_index = wp_R_walk;
+  else if (1==global.home_kit) sprite_index = yp_R_walk;
+  else if (2==global.home_kit) sprite_index = op_R_walk;
+  else if (3==global.home_kit) sprite_index = rp_R_walk;
+  else if (4==global.home_kit) sprite_index = gp_R_walk;
+  else if (5==global.home_kit) sprite_index = lbp_R_walk;
+  else if (6==global.home_kit) sprite_index = bp_R_walk;
+  else if (7==global.home_kit) sprite_index = pp_R_walk;
+  else if (8==global.home_kit) sprite_index = avp_R_walk;
+
+image_speed = 0.30;
+motion_set(0,8);
+friction =0;
+old_step = direction;
+} 
+
+
+
+// no button - stop in direction           SET OLD STEP TO -100 AVOID A LOT OF  STOPS/MESSAGES
+
+                                                                                                
+else if(-100==old_step) break;
+
+
+
