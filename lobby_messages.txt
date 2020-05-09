@@ -1,0 +1,39 @@
+if global.home_kit == 0
+{draw_set_color(c_white);}
+if global.home_kit == 1
+{draw_set_color(c_yellow);}
+if global.home_kit == 2
+{draw_set_color(c_orange);}
+if global.home_kit == 3
+{draw_set_color(c_red);}
+if global.home_kit == 4
+{draw_set_color(c_green);}
+if global.home_kit == 5
+{draw_set_color(c_aqua);}
+if global.home_kit == 6
+{draw_set_color(c_blue);}
+if global.home_kit == 7
+{draw_set_color(c_fuchsia);}
+if global.home_kit == 8
+{draw_set_color(c_purple);}
+draw_text(720, 576, "Home Team: " + string(global.htactics));
+
+if global.away_kit == 0
+{draw_set_color(c_white);}
+if global.away_kit == 1
+{draw_set_color(c_yellow);}
+if global.away_kit == 2
+{draw_set_color(c_orange);}
+if global.away_kit == 3
+{draw_set_color(c_red);}
+if global.away_kit == 4
+{draw_set_color(c_green);}
+if global.away_kit == 5
+{draw_set_color(c_aqua);}
+if global.away_kit == 6
+{draw_set_color(c_blue);}
+if global.away_kit == 7
+{draw_set_color(c_fuchsia);}
+if global.away_kit == 8
+{draw_set_color(c_purple);}
+draw_text(112, 576, "Away Team: " + string(global.atactics));
