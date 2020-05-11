@@ -1,0 +1,4 @@
+if self.speed > 0
+{
+self.speed -= 0.5;
+}
